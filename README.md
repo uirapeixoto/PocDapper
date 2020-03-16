@@ -7,13 +7,14 @@ Interessante abordar a questão de que não é possivel que a arquitetura do asp
 ** Para este projeto foram utilizadas as bibliotecas adicionais**
 
 - Service
-  Dapper (2.0.30)
-  Microsoft.Extensions.Configuration (3.1.2)
+    Dapper (2.0.30)
+    Microsoft.Extensions.Configuration (3.1.2)
 
 - Service.Test
-  Moq
-  XunitXml.TestLogger
+    Moq
+    XunitXml.TestLogger
+
 - Integration.Test
-  Microsoft.AspNetCore.Mvc.Testing
-  Microsoft.EntityFrameworkCore
-  xunit
+    Microsoft.AspNetCore.Mvc.Testing
+    Microsoft.EntityFrameworkCore
+    xunit
