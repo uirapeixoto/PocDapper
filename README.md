@@ -4,17 +4,17 @@ Projeto de exemplo de uso simples de dapper mas completo com os testes unitário
 
 Interessante abordar a questão de que não é possivel que a arquitetura do aspnetcore não consegue ler a string com o sql passado para o execute ou query do dapper, dessa forma não da pra testar a camada de repositório, do percurso entre a camada de serviço e as entradas e saidas das apis.
 
-** Para este projeto foram utilizadas as bibliotecas adicionais**
+** Para este projeto foram utilizadas as bibliotecas adicionais **
 
 - Service
-    Dapper (2.0.30)
-    Microsoft.Extensions.Configuration (3.1.2)
+    - Dapper (2.0.30)
+    - Microsoft.Extensions.Configuration (3.1.2)
 
 - Service.Test
-    Moq
-    XunitXml.TestLogger
+    - Moq
+    - XunitXml.TestLogger
 
 - Integration.Test
-    Microsoft.AspNetCore.Mvc.Testing
-    Microsoft.EntityFrameworkCore
-    xunit
+    - Microsoft.AspNetCore.Mvc.Testing
+    - Microsoft.EntityFrameworkCore
+    - xunit
