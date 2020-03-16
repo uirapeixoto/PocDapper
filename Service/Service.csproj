@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Infra\Infra.csproj" />
+  </ItemGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="dotnet test --logger &quot;trx;LogFileName=TestResults.trx&quot; --logger &quot;xunit;LogFileName=TestResults.xml&quot; --results-directory .\BuildReports\UnitTests /p:CollectCoverage=true /p:CoverletOutput=.\BuildReports\Coverage\ /p:CoverletOutputFormat=cobertura" />
+  </Target>
+
+</Project>

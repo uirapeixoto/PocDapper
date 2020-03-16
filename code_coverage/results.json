@@ -1,0 +1,400 @@
+{
+  "Infra.dll": {
+    "G:\\desenvolvimento\\aspnetcore\\PocDapper\\Infra\\Repository\\CategoryRespository.cs": {
+      "Infra.Repository.CategoryRepository": {
+        "System.Void Infra.Repository.CategoryRepository::.ctor(Infra.Interface.IDatabaseConnectionFactory)": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0
+          },
+          "Branches": []
+        }
+      },
+      "Infra.Repository.CategoryRepository/<GetAllAsync>d__2": {
+        "System.Void Infra.Repository.CategoryRepository/<GetAllAsync>d__2::MoveNext()": {
+          "Lines": {
+            "20": 0,
+            "21": 0,
+            "22": 0
+          },
+          "Branches": []
+        }
+      },
+      "Infra.Repository.CategoryRepository/<GetTreeAsync>d__3": {
+        "System.Void Infra.Repository.CategoryRepository/<GetTreeAsync>d__3::MoveNext()": {
+          "Lines": {
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "47": 0,
+            "48": 0
+          },
+          "Branches": []
+        }
+      },
+      "Infra.Repository.CategoryRepository/<GetAllProducts>d__4": {
+        "System.Void Infra.Repository.CategoryRepository/<GetAllProducts>d__4::MoveNext()": {
+          "Lines": {
+            "51": 0,
+            "52": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "62": 0,
+            "64": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "G:\\desenvolvimento\\aspnetcore\\PocDapper\\Infra\\Repository\\ProductRepository.cs": {
+      "Infra.Repository.ProductRepository": {
+        "System.Void Infra.Repository.ProductRepository::.ctor(Infra.Interface.IDatabaseConnectionFactory)": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0
+          },
+          "Branches": []
+        }
+      },
+      "Infra.Repository.ProductRepository/<AddAsync>d__2": {
+        "System.Void Infra.Repository.ProductRepository/<AddAsync>d__2::MoveNext()": {
+          "Lines": {
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "36": 0,
+            "37": 0,
+            "39": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "45": 0
+          },
+          "Branches": [
+            {
+              "Line": 24,
+              "Offset": 58,
+              "EndOffset": 62,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 24,
+              "Offset": 64,
+              "EndOffset": 75,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 24,
+              "Offset": 58,
+              "EndOffset": 93,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 95,
+              "EndOffset": 104,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 95,
+              "EndOffset": 240,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 24,
+              "Offset": 64,
+              "EndOffset": 411,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Infra.Repository.ProductRepository/<GetByIdAsync>d__3": {
+        "System.Void Infra.Repository.ProductRepository/<GetByIdAsync>d__3::MoveNext()": {
+          "Lines": {
+            "47": 0,
+            "48": 0
+          },
+          "Branches": []
+        }
+      },
+      "Infra.Repository.ProductRepository/<GetAllAsync>d__4": {
+        "System.Void Infra.Repository.ProductRepository/<GetAllAsync>d__4::MoveNext()": {
+          "Lines": {
+            "50": 0,
+            "51": 0
+          },
+          "Branches": []
+        }
+      },
+      "Infra.Repository.ProductRepository/<>c": {
+        "Infra.Model.Product Infra.Repository.ProductRepository/<>c::<GetWithCategoryAsync>b__5_0(Infra.Model.QueryResult.ProductCategoryResult)": {
+          "Lines": {
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0
+          },
+          "Branches": [
+            {
+              "Line": 60,
+              "Offset": 189,
+              "EndOffset": 191,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 189,
+              "EndOffset": 214,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "G:\\desenvolvimento\\aspnetcore\\PocDapper\\Infra\\Model\\Category.cs": {
+      "Infra.Model.Category": {
+        "System.Int32 Infra.Model.Category::get_Id()": {
+          "Lines": {
+            "9": 31
+          },
+          "Branches": []
+        },
+        "System.String Infra.Model.Category::get_Name()": {
+          "Lines": {
+            "10": 30
+          },
+          "Branches": []
+        },
+        "System.String Infra.Model.Category::get_Description()": {
+          "Lines": {
+            "11": 29
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<Infra.Model.Product> Infra.Model.Category::get_Products()": {
+          "Lines": {
+            "12": 16
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<Infra.Model.Category> Infra.Model.Category::get_SubCategory()": {
+          "Lines": {
+            "13": 8
+          },
+          "Branches": []
+        }
+      }
+    },
+    "G:\\desenvolvimento\\aspnetcore\\PocDapper\\Infra\\Model\\Product.cs": {
+      "Infra.Model.Product": {
+        "System.Int32 Infra.Model.Product::get_Id()": {
+          "Lines": {
+            "5": 30
+          },
+          "Branches": []
+        },
+        "System.String Infra.Model.Product::get_Name()": {
+          "Lines": {
+            "6": 33
+          },
+          "Branches": []
+        },
+        "System.String Infra.Model.Product::get_Description()": {
+          "Lines": {
+            "7": 31
+          },
+          "Branches": []
+        },
+        "Infra.Model.Category Infra.Model.Product::get_Category()": {
+          "Lines": {
+            "8": 6
+          },
+          "Branches": []
+        }
+      }
+    },
+    "G:\\desenvolvimento\\aspnetcore\\PocDapper\\Infra\\Model\\QueryResult\\ProductCategoryResult.cs": {
+      "Infra.Model.QueryResult.ProductCategoryResult": {
+        "System.Int32 Infra.Model.QueryResult.ProductCategoryResult::get_Id()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.String Infra.Model.QueryResult.ProductCategoryResult::get_Name()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.String Infra.Model.QueryResult.ProductCategoryResult::get_Description()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Infra.Model.QueryResult.ProductCategoryResult::get_IdCategory()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.String Infra.Model.QueryResult.ProductCategoryResult::get_Category()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Infra.Model.QueryResult.ProductCategoryResult::get_IdSubCategory()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.String Infra.Model.QueryResult.ProductCategoryResult::get_SubCategory()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Service.dll": {
+    "G:\\desenvolvimento\\aspnetcore\\PocDapper\\Service\\Services\\CategoryService.cs": {
+      "Service.Services.CategoryService": {
+        "System.Void Service.Services.CategoryService::.ctor(Infra.Interface.ICategoryRepository)": {
+          "Lines": {
+            "13": 3,
+            "14": 3,
+            "15": 3,
+            "16": 3
+          },
+          "Branches": []
+        }
+      },
+      "Service.Services.CategoryService/<GetAllAsync>d__2": {
+        "System.Void Service.Services.CategoryService/<GetAllAsync>d__2::MoveNext()": {
+          "Lines": {
+            "18": 1
+          },
+          "Branches": []
+        }
+      },
+      "Service.Services.CategoryService/<GetTreeAsync>d__3": {
+        "System.Void Service.Services.CategoryService/<GetTreeAsync>d__3::MoveNext()": {
+          "Lines": {
+            "19": 1
+          },
+          "Branches": []
+        }
+      },
+      "Service.Services.CategoryService/<GetAllProducts>d__4": {
+        "System.Void Service.Services.CategoryService/<GetAllProducts>d__4::MoveNext()": {
+          "Lines": {
+            "20": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "G:\\desenvolvimento\\aspnetcore\\PocDapper\\Service\\Services\\ProductService.cs": {
+      "Service.Services.ProductService": {
+        "System.Void Service.Services.ProductService::.ctor(Infra.Interface.IProductRepository)": {
+          "Lines": {
+            "13": 5,
+            "14": 5,
+            "15": 5,
+            "16": 5
+          },
+          "Branches": []
+        }
+      },
+      "Service.Services.ProductService/<AddAsync>d__2": {
+        "System.Void Service.Services.ProductService/<AddAsync>d__2::MoveNext()": {
+          "Lines": {
+            "18": 1
+          },
+          "Branches": []
+        }
+      },
+      "Service.Services.ProductService/<GetAllAsync>d__3": {
+        "System.Void Service.Services.ProductService/<GetAllAsync>d__3::MoveNext()": {
+          "Lines": {
+            "19": 2
+          },
+          "Branches": []
+        }
+      },
+      "Service.Services.ProductService/<GetWithCategoryAsync>d__4": {
+        "System.Void Service.Services.ProductService/<GetWithCategoryAsync>d__4::MoveNext()": {
+          "Lines": {
+            "20": 1
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
