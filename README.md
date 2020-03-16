@@ -1,8 +1,8 @@
 ## POC Dapper
 
-Projeto de exemplo de uso simples de dapper mas completo com os testes unitários da camada de serviço e de integração.
+Projeto de exemplo de uso simples de dapper, mas completo, com os testes unitários da camada de serviço e de integração.
 
-Interessante abordar a questão de que não é possivel que a arquitetura do aspnetcore não consegue ler a string com o sql passado para o execute ou query do dapper, dessa forma não da pra testar a camada de repositório, do percurso entre a camada de serviço e as entradas e saidas das apis.
+Interessante abordar a questão de que a arquitetura do aspnetcore não consegue ler a string com o sql passado para o execute ou query do dapper, dessa forma não da pra testar a camada de repositório, então os testes consideraram o percurso entre a camada de serviço e as entradas e saidas das apis.
 
 ** Para este projeto foram utilizadas as bibliotecas adicionais **
 
